@@ -1,0 +1,15 @@
+<html>
+<body>
+<center>
+<img src="cookie.png" />
+<h1>I am Evil!</h1>
+</center>
+<script type="text/javascript">
+var url_string = window.location.href;
+var url = new URL(url_string);
+var cookieValue = url.searchParams.get("cookie");
+alert("Bwha ha ha. I stole your Cookies. Yum yum yum... " + cookieValue);
+</script>
+</body>
+</html>
+

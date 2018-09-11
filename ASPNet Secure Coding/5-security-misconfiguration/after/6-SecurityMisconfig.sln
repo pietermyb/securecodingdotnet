@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityMisconfig", "6-SecurityMisconfig\SecurityMisconfig.csproj", "{88DAD03A-E801-4C8E-B746-88D7A2B7819A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DAD03A-E801-4C8E-B746-88D7A2B7819A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DAD03A-E801-4C8E-B746-88D7A2B7819A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DAD03A-E801-4C8E-B746-88D7A2B7819A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DAD03A-E801-4C8E-B746-88D7A2B7819A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17EACC8-288C-41C4-877E-CDECA02DB4E3}
+	EndGlobalSection
+EndGlobal

